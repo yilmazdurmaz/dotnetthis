@@ -21,6 +21,14 @@ Or in basics:
 - Compile&Run: `./dotnetthis.sh FileName (without extension)`
 - Clean: `./dotnetthis.sh clean FileName (without extension)` ( removes dll, exe, and runtimeconfig.json(!) )
 
+## Windows & WSL
+
+You can run scripts on Windows with the help of WSL on any folder. Just open a console in one (or `cd` into one) and send a command to WSL. You may need to install `dotnet` inside.
+
+I have Ubuntu installed in WSL, so for me the command is: `ubuntu -c ./dotnetthis.sh Filename`
+
+Since it is cross-platform, compiled dll also runs on windows.
+
 ## Disclaimer
 
 `clean` removes `Filename.runtimeconfig.json`. Please use carefuly.
