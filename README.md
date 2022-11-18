@@ -30,6 +30,8 @@ Or in basics:
 IDEs may not give you autocomplete context help as the file won't have links to them.
 Be careful to write correct code.
 
+I don't know if scripts can work to use external libraries. Honestly, I haven't tried that. It might be the next improvement to do.
+
 ## Development
 
 You can say this work includes stolen assets :)
