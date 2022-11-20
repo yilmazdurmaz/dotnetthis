@@ -41,7 +41,7 @@ fi
 
 # compile and run
 echo "...Compiling..."
-./csc_compile.sh $1.cs
+./csc_compile.sh $1.cs ${@:2}
 if [ $? -eq 0 ]; then
   echo "...Success..."
 else
@@ -51,6 +51,6 @@ fi
 
 echo
 echo "...Running..."
-./csc_run.sh $1.dll
+./csc_run.sh $1.dll  ${@:2}
 echo
 echo "...Finished..."
